@@ -56,39 +56,20 @@ void loop() {
  
  baseAngle = 0;
  baseAngle = map(imu.getAngleX(), -40, 40, -1, 1);
-// if (imu.getAnglex() < -10){
-//  
-// }
-// else
  if (abs(imu.getAngleX()) > 10){
     baseAngle = baseAngle + servoBase.read();
     servoBase.write(baseAngle = constrain (baseAngle, 0, 89));
  }
  
-//  if(servoBase.read() < 89){ //limit to 90
-//    if(-45 < imu.getAngleX() < -10){
-//      baseAngle += 0.05;
-//      servoBase.write(baseAngle);
-//    }else if(imu.getAngleX() < -44){
-//      baseAngle += 1;
-//      servoBase.write(baseAngle);
-//    }else if(10 > imu.getAngleX() > 45){
-//      baseAngle -= 0.05;
-//      servoBase.write(baseAngle);
-//    }else if(imu.getAngleX() > 44){
-//      baseAngle -= 1;
-//      servoBase.write(baseAngle);
-//      }
 
-//  }
  
 
 //Base stepper
-//
-//  if(imu.getAngleZ() > 10){
-//    
-//    baseStepper.step(bas  
-//  }
+
+  if(imu.getAngleZ() > 10){
+    
+    baseStepper.step(bas  
+  }
   
 
   delay(2);
