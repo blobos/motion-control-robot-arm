@@ -8,6 +8,7 @@ Arduino
 - MPU6050 gyroscope 
 - Joystick
 - 1-hand operation
+- (Button for claw removed as wrist/hand rotation not implemented)
 ![image](https://user-images.githubusercontent.com/7018624/236264466-32aeda4c-b04f-4dd6-9bca-12ee0e63e1e5.png)
 
 https://www.youtube.com/watch?v=lfKzZH-8aY8
