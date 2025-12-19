@@ -1,7 +1,7 @@
 
 # Motion‑Controlled Robot Arm (Arduino UNO)
 ![image](https://user-images.githubusercontent.com/7018624/236264524-dbf8d309-f401-4df3-97fa-50235881d622.png)
-A one‑hand‑operated robot arm built from simple materials (popsicle sticks + a weighted base), actuated by **4× SG90 micro‑servos** and a **28BYJ‑48 5 V stepper**. It uses an **MPU6050** IMU and a **6‑axis joystick** for intuitive motion control.
+A one‑hand‑operated robot arm built from simple materials (popsicle sticks + a weighted base), actuated by **3× SG90 micro‑servos**, **1× MG90S micro-servo** and a **28BYJ‑48 5 V stepper**. It uses an **MPU6050** IMU and a **6‑axis joystick** for intuitive motion control.
 
 !Arduino build
 !Claw / wrist assembly
@@ -19,7 +19,7 @@ A one‑hand‑operated robot arm built from simple materials (popsicle sticks +
 ## ✨ Highlights
 
 - **One‑hand control** using **joystick** + **MPU6050** (gyro/accelerometer).
-- **Actuation**: 4× SG90 servos (hand/claw, wrist, elbow, shoulder) + **28BYJ‑48 stepper** for base.
+- **Actuation**: 3× SG90 servos (hand/claw, wrist, elbow) + 1× MG90S servo (shoulder) + **28BYJ‑48 stepper** for base.
 - **Materials**: popsicle sticks for links; **plastic yogurt/omega3 lid + mini weights** for a stable base.
 - **Simplicity**: claw button removed; wrist/hand rotation not implemented (yet).
   ![image](https://user-images.githubusercontent.com/7018624/236264466-32aeda4c-b04f-4dd6-9bca-12ee0e63e1e5.png)
@@ -29,9 +29,9 @@ A one‑hand‑operated robot arm built from simple materials (popsicle sticks +
 ## 🧱 Bill of Materials
 
 - **Arduino UNO**
-- **Servos**: 4× SG90 micro‑servos
+- **Servos**: 3× SG90 micro‑servos, 1× MG90S micro-servo
 - **Stepper**: 28BYJ‑48 5 V (ULN2003 driver board recommended)
-- **Sensors/Controls**: MPU6050 IMU, 2‑axis analog joystick
+- **Sensors/Controls**: MPU6050 IMU, 6‑axis analog joystick (only 2 axes used)
 - **Structure**: popsicle sticks, screws/glue
 - **Base**: plastic lid + mini weights
 - **Power**: 5 V supply (servos + stepper), common ground with the UNO
@@ -47,7 +47,7 @@ A one‑hand‑operated robot arm built from simple materials (popsicle sticks +
 - **Shoulder** — signal **D3**
 *(All servos: Vcc → 5 V, GND → GND)*
 
-### Joystick (2‑axis)
+### Joystick (6‑axis)
 - **X‑axis** → **A0**
 - **Y‑axis** → **A1**
 *(Optional SW pin unused)*
