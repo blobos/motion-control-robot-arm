@@ -10,9 +10,9 @@ A one‑hand‑operated robot arm built from simple materials (popsicle sticks +
 
 ## 🎥 Demo (click to watch)
 
-![Video 1 — short overview(Youtube)](https://www.youtube.com/watch?v=lfKzZH-8aY8)
+Short overview: https://www.youtube.com/watch?v=lfKzZH-8aY8
 
-![Video 2 — additional motion clip(Youtube)](https://www.youtube.com/watch?v=bbvp0ymRyoc)
+Additional motion clip: https://www.youtube.com/watch?v=bbvp0ymRyoc
 
 ---
 
